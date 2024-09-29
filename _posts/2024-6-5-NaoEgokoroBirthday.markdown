@@ -8,8 +8,8 @@ To celebrate we are releasing two of our exploration themes from our upcoming YT
 
 ### Dance in Moonlight
 
-<iframe src="http://www.youtube.com/embed/WAo9X7Q3PGw" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/WAo9X7Q3PGw" frameborder="0" allowfullscreen></iframe>
 
 ### Walk in Sunlight
 
-<iframe src="http://www.youtube.com/embed/y_my72DPWzw" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/y_my72DPWzw" frameborder="0" allowfullscreen></iframe>

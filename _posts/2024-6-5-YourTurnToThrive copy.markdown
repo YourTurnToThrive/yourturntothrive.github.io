@@ -24,7 +24,7 @@ In creating backgrounds for Your Turn To Thrive, our goal was a pixel art style 
 This story takes place in a college setting, so we went around colleges, focusing on liminal spaces, to capture the vibe of this YTTD sequel! These aren't our finalized images, but we think they're looking pretty good :)
 
 ## Some of our music!
-<iframe src="http://www.youtube.com/embed/x-OJhpYuZiE" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/x-OJhpYuZiE" frameborder="0" allowfullscreen></iframe>
 
 "There's nothing to fear in failure. A person's life does not end there. / As long as you live on... Happiness will surely come to you!" - Kazumi Mishima [src](https://yourturntodie.fandom.com/wiki/Chapter_1,_Part_Two/Prologue)
 
