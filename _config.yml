@@ -1,4 +1,8 @@
 title: Your Turn To Thrive
-description: A simple blog inspired by Tumblr
+description: A visual novel and stage play sequel to Your Turn To Die
+
 baseurl: ""
-url: ""
+
+url: yttd.org
+plugins:
+  - jekyll-feed
