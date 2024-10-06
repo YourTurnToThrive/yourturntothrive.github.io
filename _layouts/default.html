@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }} {{ page.title }}</title>
+    
     <meta name="description" content="A visual novel and stage play sequel to Your Turn To Die.">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Defines how long the page title is as string -->
+    {% capture title_size %}{{ page.title | size }}{% endcapture %}
+
+    <!-- Checks if the page title is a 0 string, if so excludes the | -->
+    {% if title_size == "0" %}
+    <title>{{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }} | {{ page.title }}</title>
+    {% endif %}
+    
 </head>
 <body>
     <header>
@@ -14,7 +25,7 @@
             <a href="{{ '/' | relative_url }}">Home</a>
             <a href="{{ 'blog' | relative_url }}">Blog</a>
             <a href="{{ 'https://www.linktr.ee/yourturntothrive' }}">Socials</a>
-            <!-- No one will see this yet until it's supposed to be seen~ -->
+            <!-- No one will see the credits link until it's supposed to be seen~ -->
         </nav>
     </header>
     <main>
