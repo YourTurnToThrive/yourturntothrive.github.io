@@ -2,6 +2,8 @@
 layout: post
 title: "Your Turn To Thrive: Life After A Death Game"
 date: 2024-6-5
+sitemap:
+    priority: 0.7
 ---
 
 <!-- ![Your Turn To Thrive](https://64.media.tumblr.com/2134d3f6532811052761a2f7bd844fbc/9a2cfcd3b76922c9-d3/s1280x1920/663d31ff79e71c0c1fd25ebe895dd6b0bf27741a.pnj) -->
