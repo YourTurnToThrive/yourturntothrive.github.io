@@ -3,6 +3,7 @@ description: A visual novel and stage play sequel to Your Turn To Die
 
 baseurl: ""
 
-url: yttd.org
+url: "https://yttt.org"
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
