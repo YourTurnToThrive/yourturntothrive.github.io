@@ -19,7 +19,7 @@ header a {
 
 }
 
-p img {
+img {
 
     width: 100%;
     
@@ -108,6 +108,13 @@ iframe {
     font-size: 0.9em;
     color: black;
     margin-bottom: 10px;
+  }
+
+  .post-meta div {
+
+    /* padding-bottom: 5px; */
+    line-height: 2em;
+
   }
   
   .post-content {

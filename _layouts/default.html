@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="description" content="A visual novel and stage play sequel to Your Turn To Die.">
+    <meta name="description" content="{{page.excerpt}}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:image" content="https://yttt.org{{ page.image }}" />
+    <meta property="og:description" content="{{ page.excerpt }}" />
+
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon/favicon.png">
 
     <!-- Defines how long the page title is as string -->
     {% capture title_size %}{{ page.title | size }}{% endcapture %}
@@ -13,8 +20,10 @@
     <!-- Checks if the page title is a 0 string, if so excludes the | -->
     {% if title_size == "0" %}
     <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
     {% else %}
     <title>{{ site.title }} | {{ page.title }}</title>
+    <meta property="og:title" content="{{ site.title }} | {{ page.title }}" />
     {% endif %}
     
 </head>
@@ -23,7 +32,8 @@
         <h1 class="site-title">{{ site.title }}</h1>
         <nav>
             <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ 'blog' | relative_url }}">Blog</a>
+            <a href="{{ 'Blog' | relative_url }}">Blog</a>
+            <!-- <a href="{{ 'Essays' | relative_url }}">Essays</a> -->
             <a href="{{ 'https://www.linktr.ee/yourturntothrive' }}">Socials</a>
             <!-- No one will see the credits link until it's supposed to be seen~ -->
         </nav>

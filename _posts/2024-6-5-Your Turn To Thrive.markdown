@@ -2,6 +2,11 @@
 layout: post
 title: "Your Turn To Thrive: Life After A Death Game"
 date: 2024-6-5
+type: "Blog"
+permalink: /Blog/:title.html
+excerpt: Your Turn To Thrive is a visual novel and stage play sequel to YTTD taking place 6 months after massacre ending with Nao Egokoro as the protagonist. Her and Sara Chidouin start over in a fresh environment as they continue to recover from the events of the death game, forming new bonds of mutual support, and unraveling the mystery of their new home. 
+image: "/assets/images/nao_pfp.jpg"
+author: Your Turn To Thrive
 sitemap:
     priority: 0.7
 ---
