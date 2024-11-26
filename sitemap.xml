@@ -15,11 +15,11 @@ layout: null
     </url>
   {% endfor %}
   {% for page in site.pages %}
-    {% if page.sitemap != null and page.sitemap != empty %}
+    {% if page.sitemap != null and page.sitemap != empty and page.sitemap.priority != null and page.sitemap.priority != empty %}
       <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <priority>{{ page.sitemap.priority }}</priority>
-       </url>
+      </url>
     {% endif %}
   {% endfor %}
 </urlset>

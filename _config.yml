@@ -6,5 +6,4 @@ baseurl: ""
 url: "https://yttt.org"
 plugins:
   - jekyll-feed
-  # - jekyll-sitemap
 
