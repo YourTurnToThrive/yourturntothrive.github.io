@@ -63,6 +63,47 @@ img {
     
 }
 
+.essay-post img {
+
+  display: block;
+  width: 50%;
+  margin: auto;
+  
+}
+
+.essay-post .post-meta {
+
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.essay-post h2 {
+
+  color: #c63e53;
+  margin: auto;
+  text-align: center;
+  font-size: 3.125em;
+
+}
+.essay-post h3 {
+
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-size: 1.625em;
+  margin-bottom: 10px;
+
+}
+.not-your-turn-to-die {
+
+  font-size: 2.5em !important; 
+  color: #c63e53 !important;
+
+}
+
 p img + img {
 
   /* 6.66 derived from 20/3 */
@@ -160,12 +201,12 @@ button {
   padding-right: 10px;
   padding-left: 10px;
   background-color: white;
-  border: 1px solid black;
-  border-radius: 2px;
+  border: none;
   text-align: center;
   display: block;
   margin: auto;
   cursor: pointer;
+  color: #c63e53;
 
 }
 button i {
@@ -182,5 +223,28 @@ a:has(button) {
 hr {
 
   width: 66%
+
+}
+
+@media (max-width: 768px) {
+
+  .essay-post h2 {
+    font-size: 2.5em;
+  }
+
+  .essay-post h3 {
+    font-size: 1.25em;
+  }
+  .essay-post img{
+
+    width: 100%;
+
+  }
+  .not-your-turn-to-die {
+
+    font-size: 1.5em !important;
+    color: #c63e53 !important;
+
+  }
 
 }

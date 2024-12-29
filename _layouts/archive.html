@@ -5,7 +5,6 @@ layout: default
 <div class="container">
 
     <div class="posts">
-
         
         {% for post in site.posts %}
 
@@ -16,14 +15,15 @@ layout: default
                     <a href="{{ post.url }}">{{ post.title }}</a>
                     </h2>
                     <div class="post-meta">
-                        <div>{{ post.date | date: "%B %d, %Y" }}</div>
                         {% if post.type == "Essays" %}
-                            <div>⸱</div>
+                            
                             <div>{{ post.author }}</div>
                             <div>⸱</div>
-                            <div>{{ post.words }} Words</div>
+                            <div>{{ post.date | date: "%B %d, %Y" }}</div>
+                            <!-- <div>⸱</div> -->
+                            <!-- <div>{{ post.words }} Words</div> -->
                         {% else %}
-                    
+                        <div>{{ post.date | date: "%B %d, %Y" }}</div>
                         {% endif %}
                     </div>
                     <div class="post-content">

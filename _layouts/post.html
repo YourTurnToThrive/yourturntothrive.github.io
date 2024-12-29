@@ -2,21 +2,29 @@
 layout: default
 ---
 
-
-<div class="container">
+{% if page.type == "Essays" %}
+<div class="container essay-post">
+{% else %}
+<div class="container blog-post">
+{% endif %}
 
     <div class="posts">
         <article class="post-preview">
+            {% if page.type == "Essays" %}
+            <h2 class="post-title">{{ page.essay-title }}</h2>
+            <h3 class="post-title">{{ page.essay-subtitle }}</h3>
+            {% else %}
             <h2 class="post-title">{{ page.title }}</h2>
+            {% endif %}
             <div class="post-meta">
-                <div>{{ page.date | date: "%B %d, %Y" }}</div>
                 {% if page.type == "Essays" %}
-                    <div>⸱</div>
                     <div>{{ page.author }}</div>
                     <div>⸱</div>
-                    <div>{{ page.words }} Words</div>
+                    <div>{{ page.date | date: "%B %d, %Y" }}</div>
+                    <!-- <div>⸱</div> -->
+                    <!-- <div>{{ page.words }} Words</div> -->
                 {% else %}
-            
+                <div>{{ page.date | date: "%B %d, %Y" }}</div>
                 {% endif %}
             </div>
             <div class="post-content">
